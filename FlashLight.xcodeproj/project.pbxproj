@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1419B7A42460D4D500EACD2C /* PowerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419B7A32460D4D500EACD2C /* PowerButton.swift */; };
 		1472F6252460BB51007192DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6242460BB51007192DF /* AppDelegate.swift */; };
 		1472F6272460BB51007192DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6262460BB51007192DF /* SceneDelegate.swift */; };
 		1472F6292460BB51007192DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6282460BB51007192DF /* ContentView.swift */; };
 		1472F62B2460BB55007192DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1472F62A2460BB55007192DF /* Assets.xcassets */; };
-		1472F62E2460BB55007192DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1472F62D2460BB55007192DF /* Preview Assets.xcassets */; };
 		1472F6312460BB55007192DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1472F62F2460BB55007192DF /* LaunchScreen.storyboard */; };
 		1472F63C2460BB55007192DF /* FlashLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F63B2460BB55007192DF /* FlashLightTests.swift */; };
 		1472F6472460BB55007192DF /* FlashLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6462460BB55007192DF /* FlashLightUITests.swift */; };
+		14E873B924634A5800EA8995 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E873B824634A5800EA8995 /* Constants.swift */; };
+		14E873BB2477644500EA8995 /* SliderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E873BA2477644500EA8995 /* SliderBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1419B7A32460D4D500EACD2C /* PowerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerButton.swift; sourceTree = "<group>"; };
 		1472F6212460BB51007192DF /* FlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1472F6242460BB51007192DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1472F6262460BB51007192DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1472F6282460BB51007192DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1472F62A2460BB55007192DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1472F62D2460BB55007192DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1472F6302460BB55007192DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1472F6322460BB55007192DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1472F6372460BB55007192DF /* FlashLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,8 @@
 		1472F6422460BB55007192DF /* FlashLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1472F6462460BB55007192DF /* FlashLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashLightUITests.swift; sourceTree = "<group>"; };
 		1472F6482460BB55007192DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E873B824634A5800EA8995 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		14E873BA2477644500EA8995 /* SliderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1419B7A22460D49300EACD2C /* UIControls */ = {
+			isa = PBXGroup;
+			children = (
+				1419B7A32460D4D500EACD2C /* PowerButton.swift */,
+				14E873BA2477644500EA8995 /* SliderBar.swift */,
+			);
+			path = UIControls;
+			sourceTree = "<group>";
+		};
 		1472F6182460BB51007192DF = {
 			isa = PBXGroup;
 			children = (
@@ -99,23 +112,16 @@
 		1472F6232460BB51007192DF /* FlashLight */ = {
 			isa = PBXGroup;
 			children = (
+				1472F6282460BB51007192DF /* ContentView.swift */,
+				14E873B824634A5800EA8995 /* Constants.swift */,
+				1419B7A22460D49300EACD2C /* UIControls */,
+				1472F62A2460BB55007192DF /* Assets.xcassets */,
 				1472F6242460BB51007192DF /* AppDelegate.swift */,
 				1472F6262460BB51007192DF /* SceneDelegate.swift */,
-				1472F6282460BB51007192DF /* ContentView.swift */,
-				1472F62A2460BB55007192DF /* Assets.xcassets */,
 				1472F62F2460BB55007192DF /* LaunchScreen.storyboard */,
 				1472F6322460BB55007192DF /* Info.plist */,
-				1472F62C2460BB55007192DF /* Preview Content */,
 			);
 			path = FlashLight;
-			sourceTree = "<group>";
-		};
-		1472F62C2460BB55007192DF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1472F62D2460BB55007192DF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		1472F63A2460BB55007192DF /* FlashLightTests */ = {
@@ -241,7 +247,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1472F6312460BB55007192DF /* LaunchScreen.storyboard in Resources */,
-				1472F62E2460BB55007192DF /* Preview Assets.xcassets in Resources */,
 				1472F62B2460BB55007192DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1472F6252460BB51007192DF /* AppDelegate.swift in Sources */,
+				1419B7A42460D4D500EACD2C /* PowerButton.swift in Sources */,
 				1472F6272460BB51007192DF /* SceneDelegate.swift in Sources */,
+				14E873B924634A5800EA8995 /* Constants.swift in Sources */,
+				14E873BB2477644500EA8995 /* SliderBar.swift in Sources */,
 				1472F6292460BB51007192DF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +447,7 @@
 				DEVELOPMENT_TEAM = YSL3N35QL3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FlashLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +468,7 @@
 				DEVELOPMENT_TEAM = YSL3N35QL3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FlashLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
