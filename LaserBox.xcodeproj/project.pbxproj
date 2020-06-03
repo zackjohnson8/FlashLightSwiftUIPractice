@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1419B7A42460D4D500EACD2C /* PowerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419B7A32460D4D500EACD2C /* PowerButton.swift */; };
 		1472F6252460BB51007192DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6242460BB51007192DF /* AppDelegate.swift */; };
 		1472F6272460BB51007192DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6262460BB51007192DF /* SceneDelegate.swift */; };
 		1472F62B2460BB55007192DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1472F62A2460BB55007192DF /* Assets.xcassets */; };
 		1472F6312460BB55007192DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1472F62F2460BB55007192DF /* LaunchScreen.storyboard */; };
-		1472F63C2460BB55007192DF /* FlashLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F63B2460BB55007192DF /* FlashLightTests.swift */; };
-		1472F6472460BB55007192DF /* FlashLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6462460BB55007192DF /* FlashLightUITests.swift */; };
+		1472F63C2460BB55007192DF /* LaserBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F63B2460BB55007192DF /* LaserBoxTests.swift */; };
+		1472F6472460BB55007192DF /* LaserBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6462460BB55007192DF /* LaserBoxUITests.swift */; };
 		14CBD79C24809C9F000B152B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD79B24809C9F000B152B /* Content.swift */; };
 		14CBD79E24809F52000B152B /* PowerBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD79D24809F52000B152B /* PowerBtn.swift */; };
 		14E873B924634A5800EA8995 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E873B824634A5800EA8995 /* Constants.swift */; };
-		14E873BB2477644500EA8995 /* SliderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E873BA2477644500EA8995 /* SliderBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,23 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1419B7A32460D4D500EACD2C /* PowerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerButton.swift; sourceTree = "<group>"; };
-		1472F6212460BB51007192DF /* FlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1472F6212460BB51007192DF /* LaserBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaserBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1472F6242460BB51007192DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1472F6262460BB51007192DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1472F62A2460BB55007192DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1472F6302460BB55007192DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1472F6322460BB55007192DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1472F6372460BB55007192DF /* FlashLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1472F63B2460BB55007192DF /* FlashLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashLightTests.swift; sourceTree = "<group>"; };
+		1472F6372460BB55007192DF /* LaserBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1472F63B2460BB55007192DF /* LaserBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserBoxTests.swift; sourceTree = "<group>"; };
 		1472F63D2460BB55007192DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1472F6422460BB55007192DF /* FlashLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1472F6462460BB55007192DF /* FlashLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashLightUITests.swift; sourceTree = "<group>"; };
+		1472F6422460BB55007192DF /* LaserBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1472F6462460BB55007192DF /* LaserBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserBoxUITests.swift; sourceTree = "<group>"; };
 		1472F6482460BB55007192DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CBD79B24809C9F000B152B /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		14CBD79D24809F52000B152B /* PowerBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerBtn.swift; sourceTree = "<group>"; };
 		14E873B824634A5800EA8995 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		14E873BA2477644500EA8995 /* SliderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +81,6 @@
 		1419B7A22460D49300EACD2C /* UIControls */ = {
 			isa = PBXGroup;
 			children = (
-				1419B7A32460D4D500EACD2C /* PowerButton.swift */,
-				14E873BA2477644500EA8995 /* SliderBar.swift */,
 				14CBD79D24809F52000B152B /* PowerBtn.swift */,
 			);
 			path = UIControls;
@@ -95,9 +89,9 @@
 		1472F6182460BB51007192DF = {
 			isa = PBXGroup;
 			children = (
-				1472F6232460BB51007192DF /* FlashLight */,
-				1472F63A2460BB55007192DF /* FlashLightTests */,
-				1472F6452460BB55007192DF /* FlashLightUITests */,
+				1472F6232460BB51007192DF /* LaserBox */,
+				1472F63A2460BB55007192DF /* LaserBoxTests */,
+				1472F6452460BB55007192DF /* LaserBoxUITests */,
 				1472F6222460BB51007192DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,14 +99,14 @@
 		1472F6222460BB51007192DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1472F6212460BB51007192DF /* FlashLight.app */,
-				1472F6372460BB55007192DF /* FlashLightTests.xctest */,
-				1472F6422460BB55007192DF /* FlashLightUITests.xctest */,
+				1472F6212460BB51007192DF /* LaserBox.app */,
+				1472F6372460BB55007192DF /* LaserBoxTests.xctest */,
+				1472F6422460BB55007192DF /* LaserBoxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1472F6232460BB51007192DF /* FlashLight */ = {
+		1472F6232460BB51007192DF /* LaserBox */ = {
 			isa = PBXGroup;
 			children = (
 				14CBD79B24809C9F000B152B /* Content.swift */,
@@ -124,33 +118,33 @@
 				1472F62F2460BB55007192DF /* LaunchScreen.storyboard */,
 				1472F6322460BB55007192DF /* Info.plist */,
 			);
-			path = FlashLight;
+			path = LaserBox;
 			sourceTree = "<group>";
 		};
-		1472F63A2460BB55007192DF /* FlashLightTests */ = {
+		1472F63A2460BB55007192DF /* LaserBoxTests */ = {
 			isa = PBXGroup;
 			children = (
-				1472F63B2460BB55007192DF /* FlashLightTests.swift */,
+				1472F63B2460BB55007192DF /* LaserBoxTests.swift */,
 				1472F63D2460BB55007192DF /* Info.plist */,
 			);
-			path = FlashLightTests;
+			path = LaserBoxTests;
 			sourceTree = "<group>";
 		};
-		1472F6452460BB55007192DF /* FlashLightUITests */ = {
+		1472F6452460BB55007192DF /* LaserBoxUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1472F6462460BB55007192DF /* FlashLightUITests.swift */,
+				1472F6462460BB55007192DF /* LaserBoxUITests.swift */,
 				1472F6482460BB55007192DF /* Info.plist */,
 			);
-			path = FlashLightUITests;
+			path = LaserBoxUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1472F6202460BB51007192DF /* FlashLight */ = {
+		1472F6202460BB51007192DF /* LaserBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1472F64B2460BB55007192DF /* Build configuration list for PBXNativeTarget "FlashLight" */;
+			buildConfigurationList = 1472F64B2460BB55007192DF /* Build configuration list for PBXNativeTarget "LaserBox" */;
 			buildPhases = (
 				1472F61D2460BB51007192DF /* Sources */,
 				1472F61E2460BB51007192DF /* Frameworks */,
@@ -160,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = FlashLight;
+			name = LaserBox;
 			productName = FlashLight;
-			productReference = 1472F6212460BB51007192DF /* FlashLight.app */;
+			productReference = 1472F6212460BB51007192DF /* LaserBox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1472F6362460BB55007192DF /* FlashLightTests */ = {
+		1472F6362460BB55007192DF /* LaserBoxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1472F64E2460BB55007192DF /* Build configuration list for PBXNativeTarget "FlashLightTests" */;
+			buildConfigurationList = 1472F64E2460BB55007192DF /* Build configuration list for PBXNativeTarget "LaserBoxTests" */;
 			buildPhases = (
 				1472F6332460BB55007192DF /* Sources */,
 				1472F6342460BB55007192DF /* Frameworks */,
@@ -178,14 +172,14 @@
 			dependencies = (
 				1472F6392460BB55007192DF /* PBXTargetDependency */,
 			);
-			name = FlashLightTests;
+			name = LaserBoxTests;
 			productName = FlashLightTests;
-			productReference = 1472F6372460BB55007192DF /* FlashLightTests.xctest */;
+			productReference = 1472F6372460BB55007192DF /* LaserBoxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1472F6412460BB55007192DF /* FlashLightUITests */ = {
+		1472F6412460BB55007192DF /* LaserBoxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1472F6512460BB55007192DF /* Build configuration list for PBXNativeTarget "FlashLightUITests" */;
+			buildConfigurationList = 1472F6512460BB55007192DF /* Build configuration list for PBXNativeTarget "LaserBoxUITests" */;
 			buildPhases = (
 				1472F63E2460BB55007192DF /* Sources */,
 				1472F63F2460BB55007192DF /* Frameworks */,
@@ -196,9 +190,9 @@
 			dependencies = (
 				1472F6442460BB55007192DF /* PBXTargetDependency */,
 			);
-			name = FlashLightUITests;
+			name = LaserBoxUITests;
 			productName = FlashLightUITests;
-			productReference = 1472F6422460BB55007192DF /* FlashLightUITests.xctest */;
+			productReference = 1472F6422460BB55007192DF /* LaserBoxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1472F61C2460BB51007192DF /* Build configuration list for PBXProject "FlashLight" */;
+			buildConfigurationList = 1472F61C2460BB51007192DF /* Build configuration list for PBXProject "LaserBox" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1472F6202460BB51007192DF /* FlashLight */,
-				1472F6362460BB55007192DF /* FlashLightTests */,
-				1472F6412460BB55007192DF /* FlashLightUITests */,
+				1472F6202460BB51007192DF /* LaserBox */,
+				1472F6362460BB55007192DF /* LaserBoxTests */,
+				1472F6412460BB55007192DF /* LaserBoxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,12 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1472F6252460BB51007192DF /* AppDelegate.swift in Sources */,
-				1419B7A42460D4D500EACD2C /* PowerButton.swift in Sources */,
 				14CBD79E24809F52000B152B /* PowerBtn.swift in Sources */,
 				14CBD79C24809C9F000B152B /* Content.swift in Sources */,
 				1472F6272460BB51007192DF /* SceneDelegate.swift in Sources */,
 				14E873B924634A5800EA8995 /* Constants.swift in Sources */,
-				14E873BB2477644500EA8995 /* SliderBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1472F63C2460BB55007192DF /* FlashLightTests.swift in Sources */,
+				1472F63C2460BB55007192DF /* LaserBoxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1472F6472460BB55007192DF /* FlashLightUITests.swift in Sources */,
+				1472F6472460BB55007192DF /* LaserBoxUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		1472F6392460BB55007192DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1472F6202460BB51007192DF /* FlashLight */;
+			target = 1472F6202460BB51007192DF /* LaserBox */;
 			targetProxy = 1472F6382460BB55007192DF /* PBXContainerItemProxy */;
 		};
 		1472F6442460BB55007192DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1472F6202460BB51007192DF /* FlashLight */;
+			target = 1472F6202460BB51007192DF /* LaserBox */;
 			targetProxy = 1472F6432460BB55007192DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -447,17 +439,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FlashLight/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LaserBox/Preview Content\"";
 				DEVELOPMENT_TEAM = YSL3N35QL3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FlashLight/Info.plist;
+				INFOPLIST_FILE = LaserBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zack.FlashLight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = zack.LaserBox;
+				PRODUCT_NAME = LaserBox;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,17 +460,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FlashLight/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LaserBox/Preview Content\"";
 				DEVELOPMENT_TEAM = YSL3N35QL3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FlashLight/Info.plist;
+				INFOPLIST_FILE = LaserBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zack.FlashLight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = zack.LaserBox;
+				PRODUCT_NAME = LaserBox;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -491,18 +483,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSL3N35QL3;
-				INFOPLIST_FILE = FlashLightTests/Info.plist;
+				INFOPLIST_FILE = LaserBoxTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zack.FlashLightTests;
+				PRODUCT_BUNDLE_IDENTIFIER = zack.LaserBoxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashLight.app/FlashLight";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserBox.app/LaserBox";
 			};
 			name = Debug;
 		};
@@ -513,18 +505,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSL3N35QL3;
-				INFOPLIST_FILE = FlashLightTests/Info.plist;
+				INFOPLIST_FILE = LaserBoxTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zack.FlashLightTests;
+				PRODUCT_BUNDLE_IDENTIFIER = zack.LaserBoxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashLight.app/FlashLight";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserBox.app/LaserBox";
 			};
 			name = Release;
 		};
@@ -534,17 +526,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSL3N35QL3;
-				INFOPLIST_FILE = FlashLightUITests/Info.plist;
+				INFOPLIST_FILE = LaserBoxUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zack.FlashLightUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = zack.LaserBoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlashLight;
+				TEST_TARGET_NAME = LaserBox;
 			};
 			name = Debug;
 		};
@@ -554,24 +546,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSL3N35QL3;
-				INFOPLIST_FILE = FlashLightUITests/Info.plist;
+				INFOPLIST_FILE = LaserBoxUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zack.FlashLightUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = zack.LaserBoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlashLight;
+				TEST_TARGET_NAME = LaserBox;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1472F61C2460BB51007192DF /* Build configuration list for PBXProject "FlashLight" */ = {
+		1472F61C2460BB51007192DF /* Build configuration list for PBXProject "LaserBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1472F6492460BB55007192DF /* Debug */,
@@ -580,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1472F64B2460BB55007192DF /* Build configuration list for PBXNativeTarget "FlashLight" */ = {
+		1472F64B2460BB55007192DF /* Build configuration list for PBXNativeTarget "LaserBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1472F64C2460BB55007192DF /* Debug */,
@@ -589,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1472F64E2460BB55007192DF /* Build configuration list for PBXNativeTarget "FlashLightTests" */ = {
+		1472F64E2460BB55007192DF /* Build configuration list for PBXNativeTarget "LaserBoxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1472F64F2460BB55007192DF /* Debug */,
@@ -598,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1472F6512460BB55007192DF /* Build configuration list for PBXNativeTarget "FlashLightUITests" */ = {
+		1472F6512460BB55007192DF /* Build configuration list for PBXNativeTarget "LaserBoxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1472F6522460BB55007192DF /* Debug */,

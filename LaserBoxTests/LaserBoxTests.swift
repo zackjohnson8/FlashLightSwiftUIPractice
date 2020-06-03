@@ -1,15 +1,15 @@
 //
-//  FlashLightTests.swift
-//  FlashLightTests
+//  LaserBoxTests.swift
+//  LaserBoxTests
 //
 //  Created by Zachary Johnson on 5/4/20.
 //  Copyright © 2020 Zachary Johnson. All rights reserved.
 //
 
 import XCTest
-@testable import FlashLight
+@testable import LaserBox
 
-class FlashLightTests: XCTestCase {
+class LaserBoxTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

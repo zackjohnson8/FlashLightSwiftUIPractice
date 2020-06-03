@@ -1,6 +1,6 @@
 //
-//  FlashLightUITests.swift
-//  FlashLightUITests
+//  LaserBoxUITests.swift
+//  LaserBoxUITests
 //
 //  Created by Zachary Johnson on 5/4/20.
 //  Copyright © 2020 Zachary Johnson. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class FlashLightUITests: XCTestCase {
+class LaserBoxUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

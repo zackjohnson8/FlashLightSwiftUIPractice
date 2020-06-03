@@ -1,12 +1,14 @@
 //
 //  PowerBtn.swift
-//  FlashLight
+//  LaserBox
 //
 //  Created by Zachary Johnson on 5/28/20.
 //  Copyright © 2020 Zachary Johnson. All rights reserved.
 //
 
 import SwiftUI
+
+
 
 //public struct PowerBtn : Button<<#SelectionValue: Hashable#>, <#Content: View#>>
 //{
@@ -83,4 +85,3 @@ import SwiftUI
 //        widthConstraint.constant = Constants.widthPowerButtonLarge
 //        backgroundColor = UIColor.lightGray
 //    }
-

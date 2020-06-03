@@ -1,6 +1,6 @@
 //
 //  Content.swift
-//  FlashLight
+//  LaserBox
 //
 //  Created by Zachary Johnson on 5/28/20.
 //  Copyright © 2020 Zachary Johnson. All rights reserved.
@@ -9,7 +9,7 @@
 import SwiftUI
 import AVFoundation
 
-struct FlashLightState
+struct LaserBoxState
 {
     var isOn: Bool = false
     var powerLevel: Float = 1.0
@@ -18,7 +18,7 @@ struct FlashLightState
 
 
 struct Content: View {
-    @State var flashLightState = FlashLightState()
+    @State var laserBoxState = LaserBoxState()
     let powerImage = UIImage(named: "PowerButtonImage512")
     
     var body: some View {
@@ -32,21 +32,24 @@ struct Content: View {
     
     func CreatePowerButton() -> some View
     {
-        return Button(action: {self.PressPowerButton(lightInfo: &self.flashLightState)})
-            {
+        return Button(action: {self.PressPowerButton(lightInfo:                          &self.laserBoxState)})
+        {
             Image(uiImage: powerImage!)
-            }
-            .buttonStyle(PlainButtonStyle())
-            .cornerRadius(100)
+                .clipShape(Circle())
+        }
+        .buttonStyle(PlainButtonStyle())
+        .clipShape(Circle())
+        //.cornerRadius(100)
+        //.border(Circle, width: 20)
     }
     
     func CreatePowerLevelSlider() -> some View
     {
         return Slider(value: Binding(get: {
-            self.flashLightState.powerLevel
+            self.laserBoxState.powerLevel
         }, set: { (newVal) in
-            self.flashLightState.powerLevel = newVal
-            self.sliderChanged(lightInfo: &self.flashLightState)
+            self.laserBoxState.powerLevel = newVal
+            self.sliderChanged(lightInfo: &self.laserBoxState)
         }), in: 0.1...1.0, step: 0.01)
         .padding(EdgeInsets(
                         top: CGFloat(0),
@@ -55,12 +58,12 @@ struct Content: View {
                         trailing: CGFloat(50)))
     }
     
-    func PressPowerButton(lightInfo: inout FlashLightState)
+    func PressPowerButton(lightInfo: inout LaserBoxState)
     {
         toggleTorch(lightInfo: &lightInfo)
     }
 
-    func toggleTorch(lightInfo: inout FlashLightState)
+    func toggleTorch(lightInfo: inout LaserBoxState)
     {
         guard
             let device = AVCaptureDevice.default(for: AVMediaType.video),
@@ -74,7 +77,7 @@ struct Content: View {
                 device.torchMode = .off
             }else{
                 device.torchMode = .on
-                adjustTorchBrightness(lightInfo: &flashLightState)
+                adjustTorchBrightness(lightInfo: &laserBoxState)
             }
             
             lightInfo.isOn = !lightInfo.isOn
@@ -85,18 +88,18 @@ struct Content: View {
         }
     }
 
-    func adjustTorchBrightness(lightInfo: inout FlashLightState)
+    func adjustTorchBrightness(lightInfo: inout LaserBoxState)
     {
-        if(lightInfo.powerLevel == 0)
-        {
-            return
-        }
-
         guard
             let device = AVCaptureDevice.default(for: AVMediaType.video),
             device.hasTorch
         else { return }
 
+        if(lightInfo.powerLevel == 0  || device.torchMode == .off)
+        {
+            return
+        }
+        
         do {
             try device.lockForConfiguration()
             try device.setTorchModeOn(level: lightInfo.powerLevel)
@@ -107,9 +110,9 @@ struct Content: View {
         }
     }
 
-    func sliderChanged(lightInfo: inout FlashLightState)
+    func sliderChanged(lightInfo: inout LaserBoxState)
     {
-        adjustTorchBrightness(lightInfo: &flashLightState)
+        adjustTorchBrightness(lightInfo: &laserBoxState)
     }
 
 }
