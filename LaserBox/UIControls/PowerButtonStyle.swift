@@ -9,6 +9,51 @@
 import SwiftUI
 
 
+struct PowerButtonStyle: ButtonStyle {
+    let size : CGFloat = 124
+    
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding()
+            .frame(
+                minWidth: Constants.widthPowerButtonSmall,
+                idealWidth: Constants.widthPowerButtonLarge,
+                maxWidth: Constants.widthPowerButtonLarge,
+                minHeight: Constants.heightPowerButtonSmall,
+                idealHeight: Constants.heightPowerButtonLarge,
+                maxHeight: Constants.heightPowerButtonLarge,
+                alignment: Alignment.center)
+            .scaleEffect(configuration.isPressed ? 0.9 : 1.0)
+            .shadow(color: Color.gray.opacity(0.7), radius: configuration.isPressed ? 7: 10, x: configuration.isPressed ? 5: 15, y: configuration.isPressed ? 5: 15)
+    }
+}
+
+//struct PowerButton<T:View> : View {
+//    let content: T
+//
+//    init(content: () -> T)
+//    {
+//        self.content = content()
+//    }
+//
+//    var body: some View
+//    {
+//        VStack
+//        {
+//            Button(action: {self.ButtonPressed()})
+//            {
+//                content
+//                    .padding()
+//                    .frame(minWidth: Constants.widthPowerButtonSmall, idealWidth: Constants.widthPowerButtonLarge, maxWidth: Constants.widthPowerButtonLarge, minHeight: Constants.heightPowerButtonSmall, idealHeight: Constants.heightPowerButtonLarge, maxHeight: Constants.heightPowerButtonLarge, alignment: Alignment.center)
+//                    .scaleEffect(content.isPessed)
+//            }.buttonStyle(PlainButtonStyle()).shadow(color: Color.red, radius: 10, x: 0, y: 0)
+//        }
+//
+//    }
+//
+//
+//
+//}
 
 //public struct PowerBtn : Button<<#SelectionValue: Hashable#>, <#Content: View#>>
 //{
@@ -85,3 +130,9 @@ import SwiftUI
 //        widthConstraint.constant = Constants.widthPowerButtonLarge
 //        backgroundColor = UIColor.lightGray
 //    }
+
+struct PowerButton_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}

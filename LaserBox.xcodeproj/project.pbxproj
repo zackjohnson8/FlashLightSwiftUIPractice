@@ -14,7 +14,7 @@
 		1472F63C2460BB55007192DF /* LaserBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F63B2460BB55007192DF /* LaserBoxTests.swift */; };
 		1472F6472460BB55007192DF /* LaserBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6462460BB55007192DF /* LaserBoxUITests.swift */; };
 		14CBD79C24809C9F000B152B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD79B24809C9F000B152B /* Content.swift */; };
-		14CBD79E24809F52000B152B /* PowerBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD79D24809F52000B152B /* PowerBtn.swift */; };
+		14CBD79E24809F52000B152B /* PowerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD79D24809F52000B152B /* PowerButtonStyle.swift */; };
 		14E873B924634A5800EA8995 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E873B824634A5800EA8995 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,7 @@
 		1472F6462460BB55007192DF /* LaserBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserBoxUITests.swift; sourceTree = "<group>"; };
 		1472F6482460BB55007192DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CBD79B24809C9F000B152B /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
-		14CBD79D24809F52000B152B /* PowerBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerBtn.swift; sourceTree = "<group>"; };
+		14CBD79D24809F52000B152B /* PowerButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerButtonStyle.swift; sourceTree = "<group>"; };
 		14E873B824634A5800EA8995 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +81,7 @@
 		1419B7A22460D49300EACD2C /* UIControls */ = {
 			isa = PBXGroup;
 			children = (
-				14CBD79D24809F52000B152B /* PowerBtn.swift */,
+				14CBD79D24809F52000B152B /* PowerButtonStyle.swift */,
 			);
 			path = UIControls;
 			sourceTree = "<group>";
@@ -270,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1472F6252460BB51007192DF /* AppDelegate.swift in Sources */,
-				14CBD79E24809F52000B152B /* PowerBtn.swift in Sources */,
+				14CBD79E24809F52000B152B /* PowerButtonStyle.swift in Sources */,
 				14CBD79C24809C9F000B152B /* Content.swift in Sources */,
 				1472F6272460BB51007192DF /* SceneDelegate.swift in Sources */,
 				14E873B924634A5800EA8995 /* Constants.swift in Sources */,

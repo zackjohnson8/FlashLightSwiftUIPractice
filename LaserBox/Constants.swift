@@ -16,6 +16,6 @@ public struct Constants {
     static let widthPowerButtonSmall:CGFloat  = 100
     static let heightPowerButtonLarge:CGFloat = 124
     static let widthPowerButtonLarge:CGFloat  = 124
-    static let cornerRadiusPowerButtonSmall:CGFloat = 50
-    static let cornerRadiusPowerButtonLarge:CGFloat = 62
+    static let cornerRadiusPowerButtonSmall:CGFloat = 100 * 2
+    static let cornerRadiusPowerButtonLarge:CGFloat = 124 * 2
 }
