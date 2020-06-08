@@ -15,9 +15,6 @@
 		1472F6472460BB55007192DF /* LaserBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472F6462460BB55007192DF /* LaserBoxUITests.swift */; };
 		14CBD79C24809C9F000B152B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD79B24809C9F000B152B /* Content.swift */; };
 		14CBD79E24809F52000B152B /* PowerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD79D24809F52000B152B /* PowerButtonStyle.swift */; };
-		14CBD7DF2488B816000B152B /* CGExtender in Frameworks */ = {isa = PBXBuildFile; productRef = 14CBD7DE2488B816000B152B /* CGExtender */; };
-		14CBD7E22488B830000B152B /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 14CBD7E12488B830000B152B /* Shapes */; };
-		14CBD7E52488B84B000B152B /* bez in Frameworks */ = {isa = PBXBuildFile; productRef = 14CBD7E42488B84B000B152B /* bez */; };
 		14E873B924634A5800EA8995 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E873B824634A5800EA8995 /* Constants.swift */; };
 		14F538CC2488BAB30009A166 /* Sliders in Frameworks */ = {isa = PBXBuildFile; productRef = 14F538CB2488BAB30009A166 /* Sliders */; };
 		14F538CF248D734B0009A166 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F538CE248D734B0009A166 /* Light.swift */; };
@@ -64,10 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14CBD7E52488B84B000B152B /* bez in Frameworks */,
 				14F538CC2488BAB30009A166 /* Sliders in Frameworks */,
-				14CBD7E22488B830000B152B /* Shapes in Frameworks */,
-				14CBD7DF2488B816000B152B /* CGExtender in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,9 +169,6 @@
 			);
 			name = LaserBox;
 			packageProductDependencies = (
-				14CBD7DE2488B816000B152B /* CGExtender */,
-				14CBD7E12488B830000B152B /* Shapes */,
-				14CBD7E42488B84B000B152B /* bez */,
 				14F538CB2488BAB30009A166 /* Sliders */,
 			);
 			productName = FlashLight;
@@ -253,9 +244,6 @@
 			);
 			mainGroup = 1472F6182460BB51007192DF;
 			packageReferences = (
-				14CBD7DD2488B816000B152B /* XCRemoteSwiftPackageReference "CGExtender" */,
-				14CBD7E02488B830000B152B /* XCRemoteSwiftPackageReference "SwiftUI-Shapes" */,
-				14CBD7E32488B84B000B152B /* XCRemoteSwiftPackageReference "SwiftUI-bez" */,
 				14F538CA2488BAB30009A166 /* XCRemoteSwiftPackageReference "swiftui-sliders" */,
 			);
 			productRefGroup = 1472F6222460BB51007192DF /* Products */;
@@ -634,30 +622,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		14CBD7DD2488B816000B152B /* XCRemoteSwiftPackageReference "CGExtender" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kieranb662/CGExtender.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.3;
-			};
-		};
-		14CBD7E02488B830000B152B /* XCRemoteSwiftPackageReference "SwiftUI-Shapes" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kieranb662/SwiftUI-Shapes.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.7;
-			};
-		};
-		14CBD7E32488B84B000B152B /* XCRemoteSwiftPackageReference "SwiftUI-bez" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kieranb662/SwiftUI-bez.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.6;
-			};
-		};
 		14F538CA2488BAB30009A166 /* XCRemoteSwiftPackageReference "swiftui-sliders" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/spacenation/swiftui-sliders.git";
@@ -669,21 +633,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		14CBD7DE2488B816000B152B /* CGExtender */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 14CBD7DD2488B816000B152B /* XCRemoteSwiftPackageReference "CGExtender" */;
-			productName = CGExtender;
-		};
-		14CBD7E12488B830000B152B /* Shapes */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 14CBD7E02488B830000B152B /* XCRemoteSwiftPackageReference "SwiftUI-Shapes" */;
-			productName = Shapes;
-		};
-		14CBD7E42488B84B000B152B /* bez */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 14CBD7E32488B84B000B152B /* XCRemoteSwiftPackageReference "SwiftUI-bez" */;
-			productName = bez;
-		};
 		14F538CB2488BAB30009A166 /* Sliders */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 14F538CA2488BAB30009A166 /* XCRemoteSwiftPackageReference "swiftui-sliders" */;
